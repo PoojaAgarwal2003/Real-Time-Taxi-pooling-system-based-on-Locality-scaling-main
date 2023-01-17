@@ -9,6 +9,7 @@ import './App.css';
 // import {Login} from "./Login"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home';
+import ViewPools from './ViewPools';
 const App = () => {
   const [contacts, setContacts] = useState([]);
   const [selectedContact, setSelectedContact] = useState(null);
@@ -53,6 +54,7 @@ const App = () => {
       
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
+      <Route exact path="/viewpools" element={<ViewPools/>} />
       <Route exact path="/addContact" element={<AddContact addContact={addContact} />} />
       <Route exact path="/contactList" element={<ContactList
         contacts={contacts}

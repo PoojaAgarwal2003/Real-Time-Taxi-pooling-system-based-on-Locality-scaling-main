@@ -5,7 +5,7 @@ const Contact = () => {
     <>
     <div className="hello1">
     <div className="container11">
-      <div className="text11">Responsive contact us form</div>
+      <div className="text11">Feedback And Queries</div>
       <form action="#">
         <div className="form-row">
           <div className="input-data">
@@ -41,8 +41,7 @@ const Contact = () => {
         </div>
         <div className="form-row submit-btn">
           <div className="input-data">
-            <div className="inner"></div>
-             <button type='submit' className='btn'>Submit</button>
+             <button type='submit' className='btn'> Submit  </button>
           </div>
         </div>
       </form>

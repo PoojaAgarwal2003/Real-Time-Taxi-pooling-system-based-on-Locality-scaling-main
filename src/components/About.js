@@ -8,25 +8,25 @@ const About = () => {
       <div className="abcol3">
        <div className="abbox">
         <i class="fa fa-hand-o-up icon-1">   </i>
-        <h3>Register</h3>
+        <h1>Register</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt totam cupiditate rerum, beatae velit et, </p>
        </div>
      
        <div className="abbox">
         <i class="fa fa-user icon-1"></i>
-        <h3>Login</h3>
+        <h1>Login</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt totam cupiditate rerum, beatae velit et, </p>
        </div>
      
        <div className="abbox">
         <i class="fa fa-map-o icon-1"></i>
-        <h3>See nearby pools</h3>
+        <h1>See nearby pools</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt totam cupiditate rerum, beatae velit et, po</p>
        </div>
      
        <div className="abbox">
         <i class="fa fa-automobile icon-1"></i>
-        <h3>Board Safely</h3>
+        <h1>Board Safely</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt totam cupiditate rerum, beatae velit et,!</p>
        </div>
       </div>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
         </div>
          <div className="head2">
-           <div className="aboutus">About Us</div>
+           <div className="aboutus">ABOUT US</div>
            <div className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, velit nemo consectetur 
            nobis quos repellat fuga aut ad pariatur aliquam.</div>
        </div>
